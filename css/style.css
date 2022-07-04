@@ -237,6 +237,11 @@ span {
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
 }
 
+.cardcontacto__img:hover {
+    transform: translateX(-5px);
+    transition: transform 0.3s;
+}
+
 .cardcontacto__form {
     margin-left: 20px;
     display: flex;
@@ -253,6 +258,12 @@ span {
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
 }
 
+.cardcontacto__form--1:hover {
+    transform: translateX(-5px);
+    transition: transform 0.3s;
+    background-color: rgb(216, 241, 244);
+}
+
 .cardcontacto__form--2 {
     background-color: aliceblue;
     border-radius: 20px;
@@ -262,6 +273,12 @@ span {
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
 }
 
+.cardcontacto__form--2:hover {
+    transform: translateX(-5px);
+    transition: transform 0.3s;
+    background-color: rgb(216, 241, 244);
+}
+
 .cardcontacto__form--3 {
     background-color: aliceblue;
     border-radius: 20px;
@@ -269,6 +286,12 @@ span {
     width: 300px;
     height: 300px;
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+}
+
+.cardcontacto__form--3:hover {
+    transform: translateX(-5px);
+    transition: transform 0.3s;
+    background-color: rgb(221, 229, 230);
 }
 
 .cardcontacto__espacios {
@@ -298,6 +321,13 @@ span {
     padding: 10px;
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
 
+}
+
+.cardcontacto__form--button:hover {
+    transform: translateY(-5px);
+    transition: transform 0.5s;
+    background-color: rgb(54, 156, 167);
+    color: rgb(255, 255, 255);
 }
 
 .gridcontentservicios {
