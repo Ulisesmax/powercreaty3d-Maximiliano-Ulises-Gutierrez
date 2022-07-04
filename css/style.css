@@ -642,11 +642,11 @@ span {
 
 
 .cardfooter {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    padding: 20px;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+    background-image: linear-gradient(45deg, rgb(112, 238, 217), rgb(255, 255, 255));
     
 }
 
@@ -665,8 +665,9 @@ span {
 
 }
 
-.cardfooter__redes {
-    
+.cardfooter__redes:hover {
+    transform: translateY(-5px);
+    transition: transform 0.4s;
 }
 
 .cardfooter__prueba {
