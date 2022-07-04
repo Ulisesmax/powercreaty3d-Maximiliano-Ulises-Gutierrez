@@ -285,6 +285,21 @@ span {
     display: grid;
 }
 
+.cardservicios__diseñamos:hover {
+    transform: translateY(-15px);
+    transition: transform 0.3s;
+}
+
+.cardservicios__impresion:hover {
+    transform: translateY(-15px);
+    transition: transform 0.3s;
+} 
+
+.cardservicios__envios:hover {
+    transform: translateY(-15px);
+    transition: transform 0.3s;
+}
+
 .serviciostitle {
     text-align: center;
     margin-top: 30px;
