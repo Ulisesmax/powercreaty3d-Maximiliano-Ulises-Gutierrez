@@ -546,7 +546,11 @@ span {
     margin-left: 30px;
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
 
+}
 
+.cardnosotros__img img:hover {
+    transform: translateY(15px);
+    transition: transform 0.5s;
 }
 
 .cardnosotros__title {
@@ -567,6 +571,12 @@ span {
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
 }
 
+.cardnosotros__title p:hover {
+    transform: translateX(15px);
+    transition: transform 0.4s;
+    background-color: aliceblue;
+}
+
 
 
 .cardnosotros__title--text h3 {
@@ -584,6 +594,11 @@ span {
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
 
     
+}
+
+.cardnosotros__video iframe:hover {
+    transform: translateY(-15px);
+    transition: transform 0.4s;
 }
 
 
