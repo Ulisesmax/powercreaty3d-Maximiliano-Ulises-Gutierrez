@@ -112,6 +112,11 @@ span {
 
 }
 
+.cardhome__img1:hover {
+    transform: translateY(15px);
+    transition: transform 0.5s;
+}
+
 
 .cardhome__logo {
     position: relative;
@@ -140,6 +145,11 @@ span {
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
     font-size: large;
 
+}
+
+.cardhome__description:hover {
+    transform: translateX(-15px);
+    transition: transform 0.3s;
 }
 
 .gridcontenthome2 {
@@ -189,6 +199,11 @@ span {
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
 }
 
+.cardhome__img2:hover {
+    transform: translateY(-15px);
+    transition: transform 0.5s;
+} 
+
 .cardhome__button {
     background-color: aliceblue;
     border-radius: 20px;
@@ -201,6 +216,10 @@ span {
     left: 850px;
     top: -100px;
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+}
+
+.cardhome__button:hover {
+    background-color: rgb(91, 240, 198);
 }
 
 .gridcontacto {
