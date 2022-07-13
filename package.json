@@ -1,0 +1,22 @@
+{
+  "name": "powercreaty3d",
+  "version": "1.0.0",
+  "description": "proyecto",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-sass --include-path sass sass/index.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ulisesmax/powercreaty3d-Maximiliano-Ulises-Gutierrez.git"
+  },
+  "author": "Maximiliano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ulisesmax/powercreaty3d-Maximiliano-Ulises-Gutierrez/issues"
+  },
+  "homepage": "https://github.com/Ulisesmax/powercreaty3d-Maximiliano-Ulises-Gutierrez#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}

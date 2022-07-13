@@ -1,0 +1,118 @@
+.cardhome {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    margin-top: 50px;
+    justify-items: center;
+
+    &__img1 {
+        margin-top: 70px;
+        margin-left: 0px;
+        margin-right: 30px;
+        width: 950px;
+        height: 450px;
+        border-radius: 20px;
+        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.4);
+
+        &:hover {
+            transform: translateY(15px);
+            transition: transform 0.5s;
+        }
+    }
+
+    &__logo {
+        position: relative;
+        margin-left: 150px;
+        margin-right: 110px;
+    }
+    &__title {
+        margin-left: 150px;
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: rgb(26, 83, 96);
+        text-shadow: 0.1em 0.1em 0.2em;
+    }
+
+    &__description {
+        display: flex;
+        background-color: aliceblue;
+        margin-left: 30px;
+        margin-right: 40px;
+        margin-top: 30px;
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+        font-size: large;
+        &:hover {
+            transform: translateX(-15px);
+            transition: transform 0.3s;
+        }
+    }  
+}
+                  
+.cardhome2 {
+    margin-top: 20px;
+        display: grid;
+        margin: 20px;
+
+        &__title2 {
+            display: flex;
+            justify-content: end;
+            font-weight: bold;
+            font-size: 20px;
+            margin-top: 50px;
+            position: relative;
+            right: 100px;
+
+            h2 {
+                background-color: rgb(255, 255, 255);
+                padding: 10px;
+                border-radius: 10px;
+                color: rgb(88, 129, 114);
+            }
+        }
+
+        &__title3 {
+            font-weight: bold;
+            display: flex;
+            justify-content: start;
+            font-size: 20px;
+            top: 30px;
+            position: relative;
+            left: 100px;
+            width: 600px;
+
+            h2 {
+                background-color: rgb(255, 255, 255);
+                padding: 10px;
+                border-radius: 10px;
+                color: rgb(88, 129, 114);
+            }
+        }
+
+        &__img2 {
+            border-radius: 20px;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+            &:hover {
+                transform: translateY(-15px);
+                transition: transform 0.5s;
+            }
+        }
+
+        &__button {
+            background-color: aliceblue;
+            border-radius: 20px;
+            padding: 10px;
+            text-decoration: none;
+            color: rgb(53, 87, 88);
+            font-weight: bold;
+            font-size: 20px;
+            position: relative;
+            left: 850px;
+            top: -100px;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+            &:hover {
+                background-color: rgb(91, 240, 198);
+            }
+        }
+}

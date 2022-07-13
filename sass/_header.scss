@@ -1,0 +1,50 @@
+.header {
+    color: rgb(240, 240, 243);
+    padding: 20px 20px;
+    display: flex; flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    
+    &container {
+        max-width: 1700px;
+        margin: 0px;
+    }
+
+    &__img {
+        width: 100px;
+        height: 100px;
+    }
+
+    &__title {
+        color: rgb(245, 247, 249);
+        font-size: 40px;
+        display: inline;
+
+
+        &:hover {
+            color: rgb(197, 243, 254); 
+        }
+        
+    }
+
+    &__navbar {
+        flex-direction: row;
+        align-items: flex-end;
+
+        li {
+            margin: 0 25px;
+            &:hover {
+                transform: translateY(-5px);
+                transition: transform 0.5s;
+            }
+        }
+
+        a {
+            color: aliceblue;
+            font-weight: bold;
+        }
+    }
+
+
+
+}
